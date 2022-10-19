@@ -84,7 +84,7 @@ public class ChunkRenderData {
          * @param sprite The sprite
          */
         public void addSprite(Sprite sprite) {
-            if (sprite.createAnimation() != null) {
+            if (sprite.getAnimation() != null) {
                 this.animatedSprites.add(sprite);
             }
         }
